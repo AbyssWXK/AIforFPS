@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec94e9c-86a1-4ee3-9ea7-28b60637d4dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleDetect.py" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleDetect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiForFPS.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiForFPS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getPicture.py" beforeDir="false" afterPath="$PROJECT_DIR$/getPicture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hook.py" beforeDir="false" afterPath="$PROJECT_DIR$/hook.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +40,8 @@
       <file leaf-file-name="shot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="348">
+              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding>
                 <element signature="e#24#73#0" expanded="true" />
               </folding>
@@ -186,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.shot">
     <configuration name="PeopleDetect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AIforFPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,8 +281,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.shot" />
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.PeopleDetect" />
         <item itemvalue="Python.getPicture" />
         <item itemvalue="Python.detect" />
@@ -342,7 +337,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -530,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="348">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
             <element signature="e#24#73#0" expanded="true" />
           </folding>

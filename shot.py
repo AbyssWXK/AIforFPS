@@ -22,8 +22,12 @@ class Shot(QObject):
 
     def shot(self):
         # print('move')
-        pyautogui.moveTo(960, 540, duration=0.2)
+        # 移动到屏幕中央 1080p
+        pyautogui.moveTo(960, 540, duration=0.1)
+        # 移动到目标像素
         pyautogui.moveRel(self.target[0], self.target[1], duration=0.1)
+        # 点击左键
+        pyautogui.click()# self.target[0], self.target[1]
         # pyautogui.moveRel(-self.target[0], -self.target[1], duration=1)
 if __name__=="__main__":
     S = Shot()
