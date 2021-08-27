@@ -1,2 +1,6 @@
 本项目用于测试人脸检测再fps游戏中的效果
 模型使用yolov5 训练wider人脸检测数据集
+peopledetect人脸检测
+hook鼠标事件监听
+shot鼠标动作模拟
+getpicture获取屏幕图片

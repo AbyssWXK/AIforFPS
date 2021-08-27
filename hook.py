@@ -59,10 +59,10 @@ class Hook(QObject):
             MSLLHOOKSTRUCT_p = POINTER(MSLLHOOKSTRUCT)
             param = cast(lParam, MSLLHOOKSTRUCT_p)
         # 鼠标左键点击
-        if wParam == win32con.WM_LBUTTONDOWN:
-            print("左键点击，坐标：x:%d,y:%d" % (param.contents.pt.x, param.contents.pt.y))
+        if wParam == win32con.WM_RBUTTONDOWN:
+            # print("左键点击，坐标：x:%d,y:%d" % (param.contents.pt.x, param.contents.pt.y))
             self.mouseSignal.emit()
-            print('emit')
+            # print('emit')
         return self.CallNextHookEx(self.mouse_hd, nCode, wParam, lParam)
 
     def mouse_pro(self, nCode, wParam, lParam):

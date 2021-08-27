@@ -86,11 +86,11 @@ class YOLOv5Detector(QObject):
                 plot_one_box(xyxy, im0, label=label, color=colors(c, True))#, line_thickness=2
                 bbox = {'class': self.names[c], 'confidence': round(conf.item(), 2), 'box': [int(v.item()) for v in xyxy]}
                 bbox_container.append(bbox)
-        print(s)
+        # print(s)
         # cv2.imshow('detected',im0)
         return im0, bbox_container
     def detectFrame(self, Frame):
-        start = time.time()
+        # start = time.time()
         img = self.image_preprocess(Frame)
         """ Inference """
         pred = self.model(img)[0]
@@ -119,10 +119,10 @@ class YOLOv5Detector(QObject):
                         'box': [int(v.item()) for v in xyxy]}
                 bbox_container.append(bbox)
         # print(s)
-        print(time.time()-start)
-        print(bbox_container)
+        # print(time.time()-start)
+        # print(bbox_container)
         self.detectedBox.emit(bbox_container)
-        # cv2.imshow('detected', im0)
+        cv2.imshow('detected', im0)
         return im0, bbox_container
 
 
