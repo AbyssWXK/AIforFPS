@@ -4,3 +4,4 @@ peopledetect人脸检测
 hook鼠标事件监听
 shot鼠标动作模拟
 getpicture获取屏幕图片
+run主程序

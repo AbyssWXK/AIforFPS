@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec94e9c-86a1-4ee3-9ea7-28b60637d4dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/shot.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PeopleDetect.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PeopleDetect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PeopleDetect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1131">
+            <state relative-caret-position="2175">
               <caret line="148" column="45" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="45" />
               <folding>
                 <element signature="e#335#345#0" expanded="true" />
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="957">
               <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding>
                 <element signature="e#24#73#0" expanded="true" />
@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="974" />
@@ -303,7 +303,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0943098" />
@@ -503,16 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PeopleDetect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="148" column="45" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="45" />
-          <folding>
-            <element signature="e#335#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -525,10 +515,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="957">
           <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
             <element signature="e#24#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeopleDetect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="148" column="45" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="45" />
+          <folding>
+            <element signature="e#335#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
