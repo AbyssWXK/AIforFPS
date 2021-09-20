@@ -18,7 +18,7 @@ PyQt5==5.15.4
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.9.0
 PyRect==0.1.4
-PyScreeze==0.1.27
+PyScreeze==0.1.28
 python-dateutil==2.8.2
 PyTweening==1.0.3
 pytz==2021.1
