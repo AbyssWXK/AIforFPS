@@ -20,7 +20,7 @@ PyQt5-sip==12.9.0
 PyRect==0.1.4
 PyScreeze==0.1.27
 python-dateutil==2.8.2
-PyTweening==1.0.3
+PyTweening==1.0.4
 pytz==2021.1
 pywin32==301
 PyYAML==5.4.1
